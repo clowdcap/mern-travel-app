@@ -1,0 +1,18 @@
+footer {
+    width: 100%;
+}
+
+    footer .center {
+        max-width: 1077px;
+        margin: .5rem auto;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    footer hr {
+        padding-top: 2rem;
+        border: 0;
+        border-bottom: 2px solid whitesmoke;
+        max-width: 1000px;
+        margin: 0 auto;
+    }

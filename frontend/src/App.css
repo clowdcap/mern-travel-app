@@ -1,53 +1,10 @@
-.App {
-    display: flex;
-    width: 1000px; 
-    height: 800px;
-    z-index: 1;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-label {
-    color: tomato;
-    font-size: 13px;
-    border-bottom: .5px solid tomato;
-    width: max-content;
-    margin-top: 5px;
+html {
+    background-color: #333;
+    color: whitesmoke;
 }
-.card {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-    .card .place {
-        font-size: 16px;
-    }
-
-    .card .review {
-        width: 90%;
-        font-size: 14px;
-    }
-
-    .card .rating {
-        margin: 10px 0 0 5px;
-    }
-
-        .rating .star {
-            
-        }
-
-    .card .information {
-        width: 90%;
-        font-size: 14px;
-        font-weight: 300;
-    }
-
-    .card .username {
-        font-weight: 500;
-    }
-
-    .card .data {
-        font-size: 10px;
-    }

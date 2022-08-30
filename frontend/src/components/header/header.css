@@ -1,0 +1,52 @@
+header {
+    width: 100%;
+    padding: .5rem 0;
+    margin-bottom: 2rem;
+}
+
+header .center {
+    max-width: 1077px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+header hr {
+    padding-top: .5rem;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+header > .center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .center .logo, .center .menu {
+        width: 100%;
+        padding: 0 2%;
+        font-size: 18px;
+    }
+        
+        .center .menu nav,
+        .center .menu nav ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+        }
+        
+        .center .menu nav {
+            justify-content: space-between;
+        }
+
+            .menu nav ul li a {
+                text-decoration: none;
+                color: whitesmoke;
+            }

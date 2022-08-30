@@ -1,0 +1,13 @@
+.registrar {
+    width: 100%;
+}
+
+    .registrar .center {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+        form {
+            margin: 2rem;
+            background: red;
+        }

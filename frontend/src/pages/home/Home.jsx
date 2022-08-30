@@ -1,9 +1,13 @@
 import React from 'react'
 import './home.css'
 
+import Mapa from "./../../components/mapa/Mapa"
+import Registrar from '../registrar/Registrar'
+
+
 const Home = () => {
   return (
-    <div>Home</div>
+      <Registrar />
   )
 }
 
