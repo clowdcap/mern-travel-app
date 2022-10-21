@@ -13,9 +13,9 @@ Esssa aplicação me troxe bastante desafio, onde o mesmo pode servir como mocku
 
 # Primeiros comandos
 Abrir um terminal para o front e outro para o back
-> cd api <-- back
---
-> cd client <-- front
+> cd backend <-- back
+
+> cd frontend <-- front
 
 Para ambos
 ### `npm init`
